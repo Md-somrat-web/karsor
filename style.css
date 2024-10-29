@@ -1,0 +1,75 @@
+header {
+  background-color: #212529;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 40px;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 16px 0;
+}
+nav ul li a:hover {
+  border-bottom: 1px solid #fff;
+}
+/* header end */
+/* banner satrt */
+.banner {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  color: #fff;
+  margin-left: 50px;
+}
+.title h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.banner-button img {
+  width: 215px;
+}
+.Multiple {
+  background-color: #fff;
+  color: blue;
+  padding: 8px 10px;
+  border-radius: 40px;
+}
+.dashbords {
+  background-color: #fff;
+  color: blue;
+  padding: 8px 13px;
+  border-radius: 36px;
+}
+.notifition {
+  background-color: #fff;
+  color: blue;
+  padding: 8px 13px;
+  border-radius: 36px;
+}
+
+.icon {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+.icon i {
+  margin-right: 5px;
+}
+
+/* banner end */
